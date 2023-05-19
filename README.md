@@ -5,7 +5,7 @@ The necessary files and scripts to recreate the analysis are included in this re
 
 - DrugLogcs Pipeline Scripts: Folder containing files necessary to run the CASCADE 1.0, Lu and Park models with the DrugLogics pipeline, as well as automated scripts to run the pipeline on an external server. 
 
-- AUC ROC Calculation: Folder containing automated scripts to calculatee AUC ROC values in bulks.
+- AUC ROC Calculation: Folder containing automated scripts to calculate AUC ROC values in bulks.
 
 - Boostrapping Script: Folder containing a script to bootstrap random calibration data from each model network. 
 
