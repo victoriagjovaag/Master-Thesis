@@ -1,0 +1,9 @@
+cd druglogics-synergy
+
+for i in *.txt
+do
+	name_training=${i}
+	name_project=Output_${i}
+	cat ${name_training} > HCT-116_Park/training
+	java -cp ./target/synergy-1.2.1-jar-with-dependencies.jar eu.druglogics.synergy.Launcher --project=${name_project} --inputDir=HCT-116_Park
+done 

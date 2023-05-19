@@ -1,0 +1,5 @@
+Condition
+-
+Response
+MYC:1	TCF7_f:1	TP53:0
+Weight:1
