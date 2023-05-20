@@ -41,7 +41,7 @@ nodes_for_training_data
   for (i in 1:nrow(PROFILE_nodes)) {
   node_value_string = paste0(PROFILE_nodes$nodes[i], ":", PROFILE_nodes$ex.value[i])
   cat(node_value_string, file="training_PROFILE.txt", append=TRUE)
-  cat("\t", file="/training_PROFILE.txt", append=TRUE)
+  cat("\t", file="training_PROFILE.txt", append=TRUE)
   }
   cat("\nWeight:1",file="training_PROFILE.txt",sep="\n", append = TRUE)
   
